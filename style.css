@@ -1,0 +1,32 @@
+.box{
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    transition: all 2s ease-in;
+    cursor: pointer;
+  }
+  
+  .box1{
+    background-color: red;
+  }
+  
+  .box2{
+    background-color: blue;
+  }
+  
+  .box3{
+    background-color: green;
+  }
+  
+  .box1:hover{
+    width: 300px;
+  }
+  
+  .box2:hover{
+    height: 300px;
+  }
+  
+  .box3:hover{
+    width: 300px;
+    height: 300px;
+  }
